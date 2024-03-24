@@ -20,6 +20,7 @@ function App() {
         </Route>
 
         <Route path="/Post" element={<Posts />} />
+
         <Route path="/faq/*" element={<Faq />}>
           <Route path="question" element={<h3>This is Question</h3>} />
         </Route>
